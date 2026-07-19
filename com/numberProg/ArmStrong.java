@@ -3,25 +3,24 @@ package com.numberProg;
 public class ArmStrong {
 public static void main(String[] args) {
     
-	int a=153, temp = a,count=0,s=a;
+	int n=153, temp = n,count=0,s=n;
 	while(s>0) {
 		s/=10;
 		count++;
-		
-	}
+		}
+		s=n;
     	int c =0;
-        int d=0;
-        for(int temp2 =temp;temp2>=1;temp2=temp2/10){
+        int sum=0;
+        for(int temp2 =s;temp2>=1;temp2=temp2/10){
             c = temp2 % 10;
-            int e=count;
           int z=1;
-          for(int f=1;f<=e;f++) { //we can use d+=((int)Math.pow(c, e)); instead of this loop
+          for(int f=1;f<=count;f++) { //we can use d+=((int)Math.pow(c, e)); instead of this loop
             	z*=c;
             }
-            d=d+z;
+            sum+=z;
         }
-        if(temp==d){
-            System.out.println(d+" is an Armstrong Number");
+        if(s==sum){
+            System.out.println(sum+" is an Armstrong Number");
             }else {
             	System.out.println("Not a Armstrong No.");
             }

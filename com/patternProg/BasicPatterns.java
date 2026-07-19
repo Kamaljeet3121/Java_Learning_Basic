@@ -1,19 +1,18 @@
 package com.patternProg;
-import java.util.Scanner;
 public class BasicPatterns {
 	public static void main(String[] args) {
 //  ********************middle row as star****************
-//		int n=7;
-//		for(int row=1;row<=n;row++) {
-//			for(int col=1;col<=n;col++) {
-//				if(row==(n/2)+1) {
-//					System.out.print("* ");
-//				}else
-//					System.out.print("- ");
-//				}System.out.println();
-//			}
-//		}
-//	}
+		int n=7;
+		for(int row=1;row<=n;row++) {
+			for(int col=1;col<=n;col++) {
+				if(row==(n/2)+1) {
+					System.out.print("* ");
+				}else
+					System.out.print("- ");
+				}System.out.println();
+			}
+		}
+	}
 //  ********************middle col as star **************
 //		int n=7;
 //		for(int row=1;row<=n;row++) {
@@ -88,8 +87,6 @@ public class BasicPatterns {
 //		}
 //		}
 //  ********************Z=Pattern****************************
-//		Scanner in=new Scanner(System.in);
-//		int n=in.nextInt();
 //		for(int row=1;row<=n;row++) {
 //			for(int col=1;col<=n;col++) {
 //				if(row==1||row==n||row+col==n+1) {
@@ -101,9 +98,6 @@ public class BasicPatterns {
 //		}
 //		}
 //  ************************T-Pattern********************
-//  Scanner in=new Scanner(System.in);
-//  System.out.println("Enter the Size:");
-//  int n=in.nextInt();
 //  for(int row=1;row<=n;row++) {
 //	for(int col=1;col<=n;col++) {
 //		if(row==1||col==(n/2+1)) {
@@ -115,9 +109,6 @@ public class BasicPatterns {
 //}
 //}
 //  *****************I-Pattern*************************
-//  Scanner in=new Scanner(System.in);
-//  System.out.println("Enter the Size:");
-//  int n=in.nextInt();
 //  for(int row=1;row<=n;row++) {
 //	for(int col=1;col<=n;col++) {
 //		if(row==1||col==(n/2)+1||row==n) {
@@ -129,9 +120,6 @@ public class BasicPatterns {
 //}
 //}
 //  **********************E-Pattern********************
-//		Scanner in=new Scanner(System.in);
-//		System.out.println("Enter the Size:");
-//		int n=in.nextInt();
 //		for(int row=1;row<=n;row++) {
 //			for(int col=1;col<=n;col++) {
 //				if(row==1||row==n||row==(n/2)+1||col==1) {
@@ -144,8 +132,6 @@ public class BasicPatterns {
 //		}
 //		}
 //  *****************unsolve-Pattern***************************
-//  Scanner in=new Scanner(System.in);
-//  System.out.println("Enter the Size:");
 //		int n=7;
 //  int n=in.nextInt();
 //  for(int row=1;row<=n;row++) {
@@ -159,7 +145,6 @@ public class BasicPatterns {
 //  in.close();
 //  ********************K pattern-exp********************
 //  int n=17;
-//  int n=in.nextInt();
 //  for(int row=1;row<=n;row++) {
 //	for(int col=1;col<=n;col++) {
 //		if(col==1||row==col+n/2||(row-1+col)*2==n+1) 
@@ -173,9 +158,6 @@ public class BasicPatterns {
 //}
 //  *********************K-Pattern**********************
 //		int n=7;
-//		Scanner in=new Scanner(System.in);
-//		System.out.println("Enter the size of table:");
-//		 n=in.nextInt();
 //		for(int row=1;row<=n;row++) {
 //			for(int col=1;col<=n;col++) {
 //				if(col==1||row==col+n/2||row+col==n-n/2+1) 
@@ -189,9 +171,6 @@ public class BasicPatterns {
 //		}
 //  *******************Square******************************/
 //  int n=7;
-//  Scanner in=new Scanner(System.in);
-//  System.out.println("Enter the size of table:");
-//  n=in.nextInt();
 //  for(int row=1;row<=n;row++) {
 //	for(int col=1;col<=n;col++) {
 //		if(col==1&&row<=n/2||row==n/2+1||col==n&&row>n/2||row==1||row==n)
@@ -203,27 +182,21 @@ public class BasicPatterns {
 //	}
 //}
 //  ************accending descending*****************
-  int n=9;
-  Scanner in=new Scanner(System.in);
-  System.out.println("Enter the size of table:");
-  n=in.nextInt();
-  for(int row=1;row<=n;row++) {
-	for(int col=1;col<=n;col++) {
-		if (col<=n/2+1)
-			System.out.print(col+" ");
-		else if (col>n/2)
-			System.out.print(n+1-col+" ");
-			}
-	System.out.println();
-		}
-	}
-}
+//  int n=9;
+//  for(int row=1;row<=n;row++) {
+//	for(int col=1;col<=n;col++) {
+//		if (col<=n/2+1)
+//			System.out.print(col+" ");
+//		else if (col>n/2)
+//			System.out.print(n+1-col+" ");
+//			}
+//	System.out.println();
+//		}
+//	}
+//}
 //}
 //  **************increament for each cell***************
 //  int n=3;
-//  Scanner in=new Scanner(System.in);
-//  System.out.println("Enter the size of table:");
-//  n=in.nextInt();
 //  int i=1;
 //  for(int row=1;row<=n;row++) {
 //	for(int col=1;col<=n;col++) {
@@ -237,9 +210,6 @@ public class BasicPatterns {
 //}
 //  *************special*print 1 in odd rows*****************
 //  int n=5;
-//  Scanner in=new Scanner(System.in);
-//  System.out.println("Enter the size of table:");
-//  n=in.nextInt();
 //  for(int row=1;row<=n;row++) {
 //	for(int col=1;col<=n;col++) {
 //		if(row%2!=0)
@@ -253,9 +223,6 @@ public class BasicPatterns {
 //}
 //  ***************************prin--1--n-odd-cols**************
 //		int n=3;
-//		//Scanner in=new Scanner(System.in);
-//		//System.out.println("Enter the size of table:");
-//		//n=in.nextInt();
 //		for(int row=1;row<=n;row++) {
 //			for(int col=1;col<=n;col++) {
 //				if((row+col)%2!=0)
@@ -271,9 +238,6 @@ public class BasicPatterns {
 //		int n=3;
 //		char a='A';
 //		
-//		//Scanner in=new Scanner(System.in);
-//		//System.out.println("Enter the size of table:");
-//		//n=in.nextInt();
 //		for(int row=1;row<=n;row++) {
 //			for(int col=1;col<=n;col++) {
 //				System.out.print(a+" ");
@@ -289,9 +253,6 @@ public class BasicPatterns {
 //		int n=3;
 //		char a='A';
 //		
-//		//Scanner in=new Scanner(System.in);
-//		//System.out.println("Enter the size of table:");
-//		//n=in.nextInt();
 //		for(int row=1;row<=n;row++) {
 //			for(int col=1;col<=n;col++) {
 //				System.out.print(a+" ");
@@ -302,9 +263,6 @@ public class BasicPatterns {
 //  *****************A-Alphabet----------------------
 //		int n=7;
 //		
-//		//Scanner in=new Scanner(System.in);
-//		//System.out.println("Enter the size of table:");
-//		//n=in.nextInt();
 //		for(int row=1;row<=n;row++) {
 //			for(int col=1;col<=n;col++) {
 //				if(col==1||row==1||col==n||row==n/2+1) 
@@ -318,9 +276,6 @@ public class BasicPatterns {
 //  ****************B Alphabet************************
 //  int n=7;
 //
-//  Scanner in=new Scanner(System.in);
-//  System.out.println("Enter the size of table:");
-//  n=in.nextInt();
 //  for(int row=1;row<=n;row++) {
 //	for(int col=1;col<=n;col++) {
 //		if(col==1||row==1||col==n||row==n/2+1||row==n) 
@@ -334,9 +289,6 @@ public class BasicPatterns {
 //  ********************C-Alphabet***********************
 //  int n=7;
 //		
-//		//Scanner in=new Scanner(System.in);
-//		//System.out.println("Enter the size of table:");
-//		//n=in.nextInt();
 //		for(int row=1;row<=n;row++) {
 //			for(int col=1;col<=n;col++) {
 //				if(col==1||row==1||row==n) 
@@ -346,118 +298,5 @@ public class BasicPatterns {
 //				}
 //			System.out.println();
 //					}
-//			}}
-//   ******************Right-angle-Triangle*******************
-//   int n=7;
-//		
-//		//Scanner in=new Scanner(System.in);
-//		//System.out.println("Enter the size of table:");
-//		//n=in.nextInt();
-//		for(int row=1;row<=n;row++) {
-//			for(int col=1;col<=n;col++) {
-//					if(col<=row)
-//					System.out.print("* ");
-//					else
-//						System.out.print("- ");
-//				}
-//			System.out.println();
-//					}
-//			}}
-//   ****************Right angle upper hollow triangle*********
-//   int n=9;
-//		
-//		Scanner in=new Scanner(System.in);
-//		System.out.println("Enter the size of table:");
-//		n=in.nextInt();
-//		for(int row=1;row<=n;row++) {
-//			for(int col=1;col<=n;col++) {
-//					if(col==row||col==1||row==n)
-//					System.out.print("* ");
-//					else
-//						System.out.print(". ");
-//				}
-//			System.out.println();
-//					}
-//			}}
-//  *************Left-angle-half-lower-triangle******************
-//  int n=9;
-//		
-//		//Scanner in=new Scanner(System.in);
-//		//System.out.println("Enter the size of table:");
-//		//n=in.nextInt();
-//		for(int row=1;row<=n;row++) {
-//			for(int col=1;col<=n;col++) {
-//					if(col+row>=n+1)
-//					System.out.print("* ");
-//					else
-//						System.out.print(". ");
-//				}
-//			System.out.println();
-//					}
-//			}}
-//  *************Left-angle-half-upper-hollow-triangle**********************
-//  int n=11;
-//		
-//		//Scanner in=new Scanner(System.in);
-//		//System.out.println("Enter the size of table:");
-//		//n=in.nextInt();
-//		for(int row=1;row<=n;row++) {
-//			for(int col=1;col<=n;col++) {
-//					if(col+row==n+1||row==n||col==n)
-//					System.out.print("* ");
-//					else
-//						System.out.print(". ");
-//				}
-//			System.out.println();
-//					}
-//			}}
-//  **************right-angle-half upper triangle**********************
-//  int n=9;
-//		
-//		//Scanner in=new Scanner(System.in);
-//		//System.out.println("Enter the size of table:");
-//		//n=in.nextInt();
-//		for(int row=1;row<=n;row++) {
-//			for(int col=1;col<=n;col++) {
-//					if(row<=col)
-//					System.out.print("* ");
-//					else
-//						System.out.print("  ");
-//				}
-//			System.out.println();
-//					}
-//			}}
-//  ---------------------Isoceles triangle------------------------------
-//    int n=13;
-//		
-//		//Scanner in=new Scanner(System.in);
-//		//System.out.println("Enter the size of table:");
-//		//n=in.nextInt();
-//		for(int row=1;row<=n;row++) {
-//			for(int col=1;col<=n;col++) {
-//					if(row+col>=n+1) 
-//							System.out.print("* ");
-//						else
-//							System.out.print(" ");
-//						
-//					
-//				}
-//			System.out.println();
-//					}
-//			}}
-//  **************************************
-//    int n=17;
-//		
-//		Scanner in=new Scanner(System.in);
-//		System.out.println("Enter the size of table:");
-//		n=in.nextInt();
-//		for(int row=1;row<=n;row++) {
-//			for(int col=1;col<=n;col++) {
-//					if(row+col>n/2+1&&row+n/2>=col&&row<=n/2+1) 
-//							System.out.print("* ");
-//						else
-//							System.out.print(". ");
-//				}
-//			System.out.println();
-//					}in.close();
+//			
 //			}}

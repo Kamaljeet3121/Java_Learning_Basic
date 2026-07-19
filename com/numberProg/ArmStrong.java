@@ -3,7 +3,7 @@ package com.numberProg;
 public class ArmStrong {
 public static void main(String[] args) {
     
-	int n=153, temp = n,count=0,s=n;
+	int n=153,count=0,s=n;
 	while(s>0) {
 		s/=10;
 		count++;

@@ -2,7 +2,7 @@ package com.arraysProg;
 
 import java.util.Arrays;
 
-public class ContainsDuplicate {
+public class DuplicateCheck {
 	public static void main(String[] args) {
 		int[] a= {1,2,6,3,6};
 		Arrays.sort(a);

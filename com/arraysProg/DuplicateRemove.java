@@ -3,7 +3,7 @@ package com.arraysProg;
 import java.util.Arrays;
 import java.util.HashSet;
 
-public class RemoveDuplicates {
+public class DuplicateRemove {
 	public static void main(String[] args) {
 		int[] a = {10,20,10,30,20,10};
 		for(int k=0;k<a.length;k++)

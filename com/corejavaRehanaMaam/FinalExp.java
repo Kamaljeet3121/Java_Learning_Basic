@@ -1,5 +1,4 @@
 package com.corejavaRehanaMaam;
-import java.lang.Object;
 	class FinalExp0 {
 		static int a=25;
 		final int b=12;
@@ -20,8 +19,8 @@ import java.lang.Object;
 		public static void main(String[] args) {
 			Elipo e=new Elipo();
 			FinalExp0 f =new FinalExp0();
-			System.out.println(e.a);
-			System.out.println(f.a);
+//			System.out.println(e.a);
+//			System.out.println(f.a);
 			e.chec();
 			e.check2();
 			f.chec();

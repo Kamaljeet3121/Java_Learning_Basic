@@ -1,37 +1,34 @@
 package com.StringProg;
 
-import java.util.Arrays;
+//import java.util.Arrays;
 
 public class AnagramString {
 	public static void main(String[] args) {
-		String s="silent",ss="listen";
-		boolean p=false;
+		String s="aab",ss="bba";
+		boolean check=true;
 		if(s.length()==ss.length()) {
-			for(int i=0;i<s.length();i++) {
-				p=true;
-					if(p) {
-						for(int j=0;j<s.length();j++) {
-							if(s.charAt(i)!=s.charAt(j)) {
-								p=false;
-							}else {
-								p=true;
-								break;
-							}
-								
+		for(int i=0;i<s.length();i++) {
+				if(check) {
+					for(int j=0;j<ss.length();j++) {
+						if(s.charAt(i)==ss.charAt(j)) {
+							ss = ss.substring(0, j) + ss.substring(j + 1);
+							check=true;
+							break;
+						}
+						else
+							check=false;
 					}
-				}else
-					break;		
-			}
-			if(p)
-				System.out.println("Anagram");
-			else
-				System.out.println("Not Anagram");
+				}
+		}
+		if(check)
+			System.out.println("Anagram");
+		else
+			System.out.println("Not Anagram");
 		}
 		else
 			System.out.println("Not Anagram");
 		
-		
-		
+//		----^Two Loops Method^---------
 		
 		
 		

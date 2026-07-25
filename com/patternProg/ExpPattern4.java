@@ -38,11 +38,7 @@ public class ExpPattern4 {
 //		}
 //	}
 //		*************^Hour glass^***********************
-		
-//		int n=5;
-//		
-//		}
-//	}
+
 //***************down side hollow triangle*******************
 //		int n=5;
 //		for(int row=1;row<=n;row++) {

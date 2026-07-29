@@ -2,7 +2,7 @@ package com.StringProg;
 
 import java.util.HashMap;
 
-public class OccurenceOrFrequency {
+public class OccurenceOfEachChar {
 	public static void main(String[] args) {
 		String s="Banana";
 		while (s.length()>0) {
